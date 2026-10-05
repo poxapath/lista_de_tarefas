@@ -2,17 +2,19 @@
 
 Projeto Avaliativo do 1º Bimestre de Laboratório de Desenvolvimento Multiplataforma, 6º DSM - Fatec Franca. Criação de uma API REST para gerenciamento de tarefas do dia a dia, permitindo criar, listar, alterar e deletar tarefas.
 
-## Banco de dados
+## ▶️ Como executar
+
+### Banco de dados
 1. Crie o banco: `CREATE DATABASE todo_db;`
 2. Execute o script `database/script.sql` dentro do banco `todo_db`.
 
-## Configuração
+### Configuração
 As credenciais do banco ficam em um arquivo `.env` (não versionado, por segurança).
 
 1. Copie o arquivo `.env.example` e renomeie a cópia para `.env`
 2. Preencha com os dados do seu PostgreSQL (principalmente `DB_PASSWORD` e, se necessário, `DB_PORT`)
 
-## ▶️ Como executar
+### Execução
 ```bash
 ./mvnw spring-boot:run
 ```
